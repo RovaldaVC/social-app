@@ -1,0 +1,13 @@
+# Python
+backend-python/venv/
+__pycache__/
+*.pyc
+
+# Rust
+target/
+
+# Node/Frontend
+node_modules/
+
+# OS
+.DS_Store

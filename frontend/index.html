@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Telegram</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <!-- Sidebar for chat rooms or users (optional for later) -->
+        <div class="sidebar">
+            <h2>Chats</h2>
+            <ul id="users-list">
+                <!-- List of online users -->
+            </ul>
+        </div>
+
+        <!-- Main chat area -->
+        <div class="chat-main">
+            <div class="chat-header">
+                <h3 id="chat-title">General Chat</h3>
+            </div>
+
+            <div class="chat-messages" id="chat-messages">
+                <!-- Messages will be appended here dynamically -->
+            </div>
+
+            <div class="chat-input">
+                <input type="text" id="message-input" placeholder="Type a message..." autocomplete="off">
+                <button id="send-btn">Send</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/chat.js"></script>
+</body>
+</html>
